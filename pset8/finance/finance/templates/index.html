@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    My Portfolio
+{% endblock %}
+
+{% block main %}
+
+<table>
+    <tr>
+        <th>Symbol</th>
+        <th>Name</th>
+        <th>Shares</th>
+        <th>Price</th>
+        <th>TOTAL</th>
+    </tr>
+    <tr>
+        {% for user in users %}
+        <td>{{ user["symbol"] }}</td>
+        <td>{{ user["name"] }}</td>
+        <td>{{ user["share"] }}</td>
+        <td>${{ user["price"] }}</td>
+        <td>${{ total }}</td>
+        {% endfor %}
+    </tr>
+    <tr>
+        <td>CASH</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>${{ cash }}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>$</td>
+    </tr>
+
+</table>
+
+
+{% endblock %}

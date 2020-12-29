@@ -1,0 +1,21 @@
+body {
+    margin: 30px;
+}
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid;
+}
+
+input {
+    display: block;
+}
+
+.field {
+    margin: 20px 0;
+}

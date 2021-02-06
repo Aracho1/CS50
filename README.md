@@ -6,7 +6,7 @@ Topics include abstraction, algorithms, data structures, encapsulation, resource
 
 #### Week 0 Scratch
 
-Definitions of 
+What is:
 - Computer Science
 - Binary
 - Algorithms 
@@ -25,10 +25,26 @@ Definitions of
 #### Week 3 Algorithms
 - Linear search: checks each element sequentially
 - Binary search: compares the target value to the middle element of the array
+- Big O: describes how fast a function is growing. It is used in CS when estimating time complexity
+- Bubble sort: The largest number bubbles to the right. O(n2). Nested for loops. 
+- Selection sort: repeatedly finding the minimum element from unsorted part and putting it at the beginning. O(n2) 
+- Insertion sort: Compare two values next to each other and insert the smaller value into its position earlier in the array. o(n2) worst.
+- Merge sort: It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. O(n log n)
 
-- Big O: 
 #### Week 4 Memory
+- Pointers
+
 #### Week 5 Data Structures
+- Linked lists
+- Tree
+- queue: abstract data structure: add values and remove values in a first-in-first-out way. 
+- stack: most recently added are removed first. Last-in-first-out
+- dictionary: map keys to values
+
 #### Week 6 Python
+- Python basics
+
 #### Week 7 SQL
+
 #### Week 8 Information
+- Privacy

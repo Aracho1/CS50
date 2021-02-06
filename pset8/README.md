@@ -1,4 +1,4 @@
-# C$ 50 Finance
+# C$50 Finance
 - Virtual stock trading website with an account for users to register for, the ability to get quotes for shares of stocks and virtually buy or sell them
 - ```application.py``` file runs Flask app, a connection to a database file ``finance.db`` 
 - Used sqlite3 database
@@ -6,7 +6,7 @@
 - This follows the MVC, Model-View-Controller, pattern, which generally separates the concerns of data and how that’s stored (our database)
 
 ## To start the app
-```git clone```
+- ```git clone```
 - You’ll need to register for an API key in order to be able to query IEX’s data on iexcloud.io/cloud-login#/register
 - In a terminal in the project folder, run ```$ export API_KEY=value```
 - Run ```flask run```
